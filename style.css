@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Righteous', cursive;
+    background-color: black;
+
+}
+.wrpapper{
+    width: 500px;
+    height: 600px;
+    /* background-color: aqua;x */
+    /* border: 2px solid rebeccapurple; */
+    margin: auto;
+    display: grid;
+    grid-template-rows: 10% 20% auto;
+}
+.todo_head{
+    /* text-align: center; */
+        /* background-color: black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+h3{
+    font-size: 2rem;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+
+.todo_body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type=text]{
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    /* border: transparent; */
+    background-color:transparent;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: 'Righteous', cursive;
+    
+
+}
+button{
+    padding: 15px 20px;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'Righteous', cursive;
+
+    /* background-color: ; */
+}
+
+.todo_footer{
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+}
+.todo_item{
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 18px;
+    background: transparent;
+}
+li{
+    border-bottom:3px solid green ;
+    list-style: none;
+}
+.edit{
+    border: none;
+    outline: none;
+    color: green;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: transparent;
+}
+.delete{
+    border: none;
+    outline: none;
+    color: red;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: transparent;
+}
+.add{
+    border: none;
+    outline: none;
+    color: green;
+    font-size: 1rem;
+    cursor: pointer;
+    background: transparent;
+    
+}
+.deleteALL{
+    border: none;
+    outline: none;
+    color: red;
+    font-size: 1rem;
+    cursor: pointer;
+    background: transparent;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Advance Todo</title>
+</head>
+<body>
+    <div class="wrpapper">
+       <div class="todo_head">
+           <div class="namelist">
+               <h3>Todo list</h3>
+               <h2 style="border-bottom: 3px solid green;"></h2>
+           </div>
+       </div>
+       <div class="todo_body"> 
+           <div class="input"> 
+               <input type="text" placeholder="Enter your Todo" id="inputEnter" >
+               <button class="add" onclick="addInput()">Add</button>
+               <button class="deleteALL" onclick="delall_btn()">Delete All</button>
+           </div>
+       </div>
+       <div class="todo_footer">
+           <ul id="todo_list">
+               <!-- <li><input type="text" class="todo_item"> <button class="edit" >edit</button> <button class="delete">Delete</button></li>
+                -->
+           </ul>
+       </div>
+    </div>
+    
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
